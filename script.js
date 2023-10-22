@@ -135,6 +135,7 @@ function validateForms(){
 
 
     if(!kilepakk.checked && !pappkast.checked && !kinkekott.checked){
+        console.log("NO RADIO BUTTONS CHECKED")
         return false;
     }
 
