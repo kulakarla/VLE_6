@@ -134,7 +134,7 @@ function validateForms(){
     let kinkekott = document.getElementById("kinkekott");
 
 
-    if(!kilepakk.checked || !pappkast.checked && !kinkekott.checked){
+    if(!kilepakk.checked && !pappkast.checked && !kinkekott.checked){
         return false;
     }
 
